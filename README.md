@@ -5,3 +5,5 @@ An example 'draw_dashed_line' function to allow godot's built in _draw() functio
 
 dash_length allows you to say that you want a 100px line with a dash that is 4 pixels long.
 cap_end allows you to say that you always want draw any remaining end dash to "cap" the line.
+
+All of the magic is in the line_harness.gd file.
